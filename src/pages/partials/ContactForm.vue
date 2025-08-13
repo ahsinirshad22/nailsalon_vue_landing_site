@@ -1,6 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { sendContactEmail } from '@/utils/email'
 
 const { t } = useI18n()
 
@@ -8,6 +9,7 @@ const form = reactive({ name: '', email: '', message: '' })
 const touched = reactive({ name: false, email: false, message: false })
 const submitting = ref(false)
 const success = ref(false)
+const error = ref('')
 
 function validateName() {
 	return form.name.trim().length > 0
@@ -30,12 +32,26 @@ async function onSubmit() {
 	touched.email = true
 	touched.message = true
 	if (!validateName() || !validateEmail() || !validateMessage()) return
+	
 	submitting.value = true
-	await new Promise((r) => setTimeout(r, 800))
-	submitting.value = false
-	success.value = true
-	Object.assign(form, { name: '', email: '', message: '' })
-	touched.name = touched.email = touched.message = false
+	error.value = ''
+	
+	try {
+		const result = await sendContactEmail(form)
+		
+		if (result.success) {
+			success.value = true
+			Object.assign(form, { name: '', email: '', message: '' })
+			touched.name = touched.email = touched.message = false
+		} else {
+			error.value = result.error || 'Failed to send message. Please try again.'
+		}
+	} catch (err) {
+		error.value = 'An unexpected error occurred. Please try again.'
+		console.error('Form submission error:', err)
+	} finally {
+		submitting.value = false
+	}
 }
 </script>
 
@@ -82,10 +98,11 @@ async function onSubmit() {
 		</div>
 		<div class="pt-2">
 			<button type="submit" class="btn-accent" :disabled="submitting">
-				<span v-if="submitting">...</span>
+				<span v-if="submitting">Sending...</span>
 				<span v-else>{{ t('contact.submit') }}</span>
 			</button>
 			<p v-if="success" class="mt-3 text-green-600">{{ t('contact.success') }}</p>
+			<p v-if="error" class="mt-3 text-red-600">{{ error }}</p>
 		</div>
 	</form>
 </template> 
