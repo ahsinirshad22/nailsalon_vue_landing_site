@@ -11,13 +11,13 @@ const { t, tm } = useI18n()
 	<DefaultLayout>
 		<!-- Hero -->
 		<section class="relative overflow-hidden">
-			<div class="absolute inset-0 bg-gradient-to-br from-primary/20 via-white to-secondary/10 dark:from-primary/10 dark:via-darkbg dark:to-secondary/20"></div>
+			<div class="absolute inset-0 bg-gradient-to-br from-primary/10 via-white to-secondary/5 dark:from-white/5 dark:via-darkbg dark:to-secondary/10"></div>
 			<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
 				<div class="max-w-2xl">
 					<h1 class="text-4xl sm:text-5xl font-bold leading-tight">{{ t('hero.title') }}</h1>
 					<p class="mt-4 text-lg text-secondary max-w-xl">{{ t('hero.subtitle') }}</p>
 					<div class="mt-8 flex items-center gap-4">
-						<a href="#pricing" class="btn-primary">{{ t('hero.ctaPrimary') }}</a>
+						<a href="#pricing" class="btn-accent">{{ t('hero.ctaPrimary') }}</a>
 						<a href="#about" class="btn-secondary">{{ t('hero.ctaSecondary') }}</a>
 					</div>
 				</div>
@@ -35,7 +35,7 @@ const { t, tm } = useI18n()
 			<h2 class="text-2xl font-semibold">{{ t('howItWorks.title') }}</h2>
 			<div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 				<div v-for="(s, i) in tm('howItWorks.steps')" :key="i" class="rounded-xl p-6 border border-secondary/20 bg-white dark:bg-darkbg/60">
-					<div class="text-2xl font-bold text-primary">{{ i + 1 }}</div>
+					<div class="text-2xl font-bold text-accent">{{ i + 1 }}</div>
 					<h3 class="mt-3 font-semibold">{{ s.title }}</h3>
 					<p class="mt-2 text-secondary">{{ s.text }}</p>
 				</div>
@@ -68,11 +68,11 @@ const { t, tm } = useI18n()
 					class="rounded-xl border border-secondary/20 p-6 bg-white dark:bg-darkbg/60 flex flex-col"
 				>
 					<h3 class="text-xl font-semibold">{{ p.name }}</h3>
-					<p class="mt-2 text-3xl font-bold text-primary">{{ p.price }}</p>
+					<p class="mt-2 text-3xl font-bold text-accent">{{ p.price }}</p>
 					<ul class="mt-4 space-y-2 text-secondary flex-1">
 						<li v-for="(feat, j) in p.features" :key="j">• {{ feat }}</li>
 					</ul>
-					<button class="btn-primary mt-6">{{ t('pricing.cta') }}</button>
+					<button class="btn-accent mt-6">{{ t('pricing.cta') }}</button>
 				</div>
 			</div>
 		</section>

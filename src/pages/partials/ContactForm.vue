@@ -48,7 +48,7 @@ async function onSubmit() {
 				type="text"
 				v-model="form.name"
 				@blur="touched.name = true"
-				class="mt-1 block w-full rounded-md border-secondary/30 focus:border-primary focus:ring-primary"
+				class="mt-1 block w-full rounded-md border-secondary/30 focus:border-accent focus:ring-accent"
 				:aria-invalid="!!errors.name()"
 				:aria-describedby="errors.name() ? 'name-error' : undefined"
 			/>
@@ -61,7 +61,7 @@ async function onSubmit() {
 				type="email"
 				v-model="form.email"
 				@blur="touched.email = true"
-				class="mt-1 block w-full rounded-md border-secondary/30 focus:border-primary focus:ring-primary"
+				class="mt-1 block w-full rounded-md border-secondary/30 focus:border-accent focus:ring-accent"
 				:aria-invalid="!!errors.email()"
 				:aria-describedby="errors.email() ? 'email-error' : undefined"
 			/>
@@ -74,14 +74,14 @@ async function onSubmit() {
 				rows="4"
 				v-model="form.message"
 				@blur="touched.message = true"
-				class="mt-1 block w-full rounded-md border-secondary/30 focus:border-primary focus:ring-primary"
+				class="mt-1 block w-full rounded-md border-secondary/30 focus:border-accent focus:ring-accent"
 				:aria-invalid="!!errors.message()"
 				:aria-describedby="errors.message() ? 'message-error' : undefined"
 			></textarea>
 			<p v-if="errors.message()" id="message-error" class="mt-1 text-sm text-red-600">{{ errors.message() }}</p>
 		</div>
 		<div class="pt-2">
-			<button type="submit" class="btn-primary" :disabled="submitting">
+			<button type="submit" class="btn-accent" :disabled="submitting">
 				<span v-if="submitting">...</span>
 				<span v-else>{{ t('contact.submit') }}</span>
 			</button>
