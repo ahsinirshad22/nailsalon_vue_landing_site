@@ -61,9 +61,9 @@
     "email": "Email",
     "message": "Message",
     "submit": "Send Message",
-    "address": "123 Luxury Ave, Suite 100, Beauty City",
-    "phone": "+1 (555) 123-4567",
-    "companyEmail": "hello@nailsalon.club",
+    "address": "8653 N Beach St, Fort Worth, Texas 76244",
+    "phone": "+1 (682) 420-4321",
+    "companyEmail": "luan@nailsalon.club",
     "success": "Thanks! We will get back to you soon.",
     "errors": {
       "name": "Please enter your name.",
