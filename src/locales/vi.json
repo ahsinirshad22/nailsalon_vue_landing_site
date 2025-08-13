@@ -63,7 +63,7 @@
     "submit": "Gửi",
     "address": "8653 N Beach St, Fort Worth, Texas 76244",
     "phone": "+1 (682) 420-4321",
-    "companyEmail": "luan{'@'}nailsalon.club",
+    "companyEmail": "info{'@'}nailsalon.club",
     "success": "Cảm ơn! Chúng tôi sẽ phản hồi sớm.",
     "errors": {
       "name": "Vui lòng nhập họ tên.",
@@ -95,7 +95,7 @@
       "childrenText": "Dịch vụ của chúng tôi không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi.",
       "changes": "Thay đổi chính sách",
       "changesText": "Chúng tôi có thể cập nhật chính sách này theo thời gian. Chúng tôi sẽ thông báo mọi thay đổi bằng cách đăng chính sách mới và cập nhật ngày 'Cập nhật lần cuối'.",
-      "contactInfo": "Nếu bạn có câu hỏi về chính sách này, vui lòng liên hệ luan{'@'}nailsalon.club"
+      "contactInfo": "Nếu bạn có câu hỏi về chính sách này, vui lòng liên hệ info{'@'}nailsalon.club"
     },
     "terms": {
       "intro": "Điều khoản và Điều kiện này ('Điều khoản') điều chỉnh việc sử dụng trang web và dịch vụ NailSalon.Club. Bằng việc truy cập hoặc sử dụng dịch vụ, bạn đồng ý tuân theo các Điều khoản này.",
@@ -121,7 +121,7 @@
       "governingText": "Các Điều khoản này sẽ được điều chỉnh và giải thích theo luật của Tiểu bang Texas, không tính đến nguyên tắc xung đột luật.",
       "changes": "Thay đổi điều khoản",
       "changesText": "Chúng tôi có quyền sửa đổi các Điều khoản này bất cứ lúc nào. Chúng tôi sẽ thông báo cho người dùng về mọi thay đổi quan trọng bằng cách đăng Điều khoản mới trên trang web.",
-      "contactInfo": "Nếu bạn có câu hỏi về các Điều khoản này, vui lòng liên hệ luan{'@'}nailsalon.club"
+      "contactInfo": "Nếu bạn có câu hỏi về các Điều khoản này, vui lòng liên hệ info{'@'}nailsalon.club"
     }
   },
   "footer": {
