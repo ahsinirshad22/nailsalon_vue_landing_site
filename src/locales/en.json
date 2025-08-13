@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "hero": {
+    "title": "Grow Your Nail Salon with Premium Tools",
+    "subtitle": "NailSalon.Club helps nail salons attract clients, manage bookings, and boost revenue.",
+    "ctaPrimary": "Get Started",
+    "ctaSecondary": "Learn More"
+  },
+  "about": {
+    "title": "About NailSalon.Club",
+    "text": "We provide a modern subscription-based platform tailored for nail salons—online presence, smart marketing, client engagement, and analytics that drive growth."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": [
+      { "title": "Create Your Profile", "text": "Set up a beautiful salon profile in minutes." },
+      { "title": "Showcase Services", "text": "Present pricing, menu, and gallery with ease." },
+      { "title": "Attract Clients", "text": "SEO, marketing tools, and promotions to grow." },
+      { "title": "Track Performance", "text": "Insights to optimize bookings and revenue." }
+    ]
+  },
+  "features": {
+    "title": "Features",
+    "items": [
+      { "title": "Online Presence", "text": "Customizable landing page and gallery." },
+      { "title": "Booking Widgets", "text": "Embed scheduling into your site." },
+      { "title": "Client CRM", "text": "Manage clients and preferences." },
+      { "title": "Marketing Tools", "text": "Promotions, emails, and SEO helpers." },
+      { "title": "Analytics", "text": "Track traffic and conversions." },
+      { "title": "Secure & Fast", "text": "Reliable infrastructure and security." }
+    ]
+  },
+  "testimonials": {
+    "title": "What Salons Say",
+    "items": [
+      { "name": "Bella Nails", "quote": "Our bookings doubled in 2 months!" },
+      { "name": "Luxe Mani Studio", "quote": "Beautiful templates and easy to use." },
+      { "name": "Polish & Shine", "quote": "Marketing tools are a game changer." }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "plans": [
+      { "name": "Starter", "price": "$19/mo", "features": ["Basic site", "Email support", "Starter analytics"] },
+      { "name": "Pro", "price": "$49/mo", "features": ["Everything in Starter", "Booking widgets", "Email marketing"] },
+      { "name": "Elite", "price": "$99/mo", "features": ["Everything in Pro", "Advanced SEO", "Priority support"] }
+    ],
+    "cta": "Choose Plan"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We’d love to hear from you.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "address": "123 Luxury Ave, Suite 100, Beauty City",
+    "phone": "+1 (555) 123-4567",
+    "companyEmail": "hello@nailsalon.club",
+    "success": "Thanks! We will get back to you soon.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Enter a valid email address.",
+      "message": "Please enter a message (min 10 characters)."
+    }
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms & Conditions",
+    "updated": "Last updated",
+    "lorem": "This is placeholder legal text. Your privacy is important to us. We collect minimal data to provide and improve the service.",
+    "infoCollect": "Information We Collect",
+    "useInfo": "How We Use Information",
+    "rights": "Your Rights",
+    "agreement": "Agreement to Terms",
+    "responsibilities": "User Responsibilities",
+    "limitation": "Limitation of Liability",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "company": "NailSalon.Club"
+  },
+  "common": {
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  }
+} 

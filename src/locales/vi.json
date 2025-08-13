@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "contact": "Liên hệ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản",
+    "getStarted": "Bắt đầu",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "hero": {
+    "title": "Phát triển tiệm nail với giải pháp cao cấp",
+    "subtitle": "NailSalon.Club giúp thu hút khách hàng, quản lý lịch hẹn và tăng doanh thu.",
+    "ctaPrimary": "Bắt đầu",
+    "ctaSecondary": "Tìm hiểu thêm"
+  },
+  "about": {
+    "title": "Về NailSalon.Club",
+    "text": "Nền tảng đăng ký hiện đại dành cho tiệm nail—trang web, tiếp thị thông minh, gắn kết khách hàng và phân tích hiệu quả."
+  },
+  "howItWorks": {
+    "title": "Cách hoạt động",
+    "steps": [
+      { "title": "Tạo hồ sơ", "text": "Thiết lập hồ sơ tiệm đẹp mắt trong vài phút." },
+      { "title": "Giới thiệu dịch vụ", "text": "Trình bày bảng giá, menu và bộ sưu tập dễ dàng." },
+      { "title": "Thu hút khách", "text": "SEO, công cụ marketing và khuyến mãi để tăng trưởng." },
+      { "title": "Theo dõi hiệu quả", "text": "Thông tin chi tiết để tối ưu lịch hẹn và doanh thu." }
+    ]
+  },
+  "features": {
+    "title": "Tính năng",
+    "items": [
+      { "title": "Hiện diện trực tuyến", "text": "Trang đích và bộ sưu tập tùy chỉnh." },
+      { "title": "Đặt lịch", "text": "Nhúng lịch hẹn vào trang web của bạn." },
+      { "title": "Quản lý khách hàng", "text": "Quản lý thông tin và sở thích khách hàng." },
+      { "title": "Công cụ marketing", "text": "Khuyến mãi, email và hỗ trợ SEO." },
+      { "title": "Phân tích", "text": "Theo dõi lưu lượng và chuyển đổi." },
+      { "title": "Bảo mật & Nhanh", "text": "Hạ tầng tin cậy và an toàn." }
+    ]
+  },
+  "testimonials": {
+    "title": "Khách hàng nói gì",
+    "items": [
+      { "name": "Bella Nails", "quote": "Lịch hẹn tăng gấp đôi sau 2 tháng!" },
+      { "name": "Luxe Mani Studio", "quote": "Mẫu giao diện đẹp và dễ sử dụng." },
+      { "name": "Polish & Shine", "quote": "Công cụ marketing thật sự khác biệt." }
+    ]
+  },
+  "pricing": {
+    "title": "Bảng giá",
+    "plans": [
+      { "name": "Starter", "price": "$19/tháng", "features": ["Trang cơ bản", "Hỗ trợ email", "Phân tích cơ bản"] },
+      { "name": "Pro", "price": "$49/tháng", "features": ["Mọi thứ trong Starter", "Widget đặt lịch", "Email marketing"] },
+      { "name": "Elite", "price": "$99/tháng", "features": ["Mọi thứ trong Pro", "SEO nâng cao", "Hỗ trợ ưu tiên"] }
+    ],
+    "cta": "Chọn gói"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "subtitle": "Rất hân hạnh được hỗ trợ bạn.",
+    "name": "Họ và tên",
+    "email": "Email",
+    "message": "Tin nhắn",
+    "submit": "Gửi",
+    "address": "123 Luxury Ave, Tầng 1, Beauty City",
+    "phone": "+1 (555) 123-4567",
+    "companyEmail": "hello@nailsalon.club",
+    "success": "Cảm ơn! Chúng tôi sẽ phản hồi sớm.",
+    "errors": {
+      "name": "Vui lòng nhập họ tên.",
+      "email": "Vui lòng nhập email hợp lệ.",
+      "message": "Vui lòng nhập nội dung (tối thiểu 10 ký tự)."
+    }
+  },
+  "legal": {
+    "privacyTitle": "Chính sách bảo mật",
+    "termsTitle": "Điều khoản & Điều kiện",
+    "updated": "Cập nhật lần cuối",
+    "lorem": "Đoạn văn bản pháp lý minh họa. Chúng tôi coi trọng quyền riêng tư của bạn và chỉ thu thập dữ liệu cần thiết để cải thiện dịch vụ.",
+    "infoCollect": "Thông tin chúng tôi thu thập",
+    "useInfo": "Cách chúng tôi sử dụng thông tin",
+    "rights": "Quyền của bạn",
+    "agreement": "Thỏa thuận điều khoản",
+    "responsibilities": "Trách nhiệm của người dùng",
+    "limitation": "Giới hạn trách nhiệm",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "rights": "Đã đăng ký bản quyền.",
+    "company": "NailSalon.Club"
+  },
+  "common": {
+    "language": "Ngôn ngữ",
+    "theme": "Giao diện",
+    "light": "Sáng",
+    "dark": "Tối"
+  }
+} 
