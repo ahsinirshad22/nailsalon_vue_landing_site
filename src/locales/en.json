@@ -63,7 +63,7 @@
     "submit": "Send Message",
     "address": "8653 N Beach St, Fort Worth, Texas 76244",
     "phone": "+1 (682) 420-4321",
-    "companyEmail": "luan@nailsalon.club",
+    "companyEmail": "luan{'@'}nailsalon.club",
     "success": "Thanks! We will get back to you soon.",
     "errors": {
       "name": "Please enter your name.",
